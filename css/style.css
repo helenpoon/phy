@@ -1,0 +1,100 @@
+body {
+	margin: 0px;
+	font-family: ''PT Serif', serif';
+	color: #101010;
+}
+
+html, body {
+	margin: 0; 
+	height: 100%; 
+	overflow: hidden;
+}
+
+
+.navbar {
+	height: 120px;
+	width: 100%;
+	text-align: center;
+}
+
+#nav-container {
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 30px;
+	height: 100px;
+}
+
+#logo-image {
+	float: left;
+	overflow: auto;
+	width: 100px;
+	height: 100px;
+}
+
+#logo-image img {
+	width: 100%;
+	height: auto;
+
+}
+
+.info {
+	padding-left: 50px;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	float: right;
+	margin-top: 20px;
+}
+
+.info a {
+	margin-left: 50px;
+}
+
+
+#main-container {
+	width: 100%;
+	font-size: 0;
+	height: 420px;
+}
+
+
+.img {
+	width: 20%;
+	display: inline-block;
+	overflow: hidden;
+	height: 420px;
+	transition: 0.7s;
+	background-position: left;
+	background-size: cover;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.img:hover {
+	-webkit-filter: none;
+	filter: none;
+}
+
+
+.social {
+	height: 100px;
+	width: 100%;
+}
+
+#social-container {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px;
+	height: 80px;
+}
+
+.social-icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+}
+
+
+
