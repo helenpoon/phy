@@ -98,7 +98,7 @@ html, body {
 		width: 80%;
 		font-size: 0;
 		height: 60%;
-		display: inline-block;
+		display: block;
 		display: flex;
 		flex-direction: row;
 	}
@@ -106,6 +106,8 @@ html, body {
 	.column {
 		float: left;
 		transition: 0.7s;
+		width: 25%;
+		height: 100%;
 	}
 	.img {
 		width: 100%;
